@@ -1,7 +1,7 @@
 # Compiler and linker configuration
 CXX = /opt/homebrew/bin/g++-15
 CXXFLAGS = -Wall -Wextra -std=c++17 -fopenmp \
-           -I/opt/homebrew/opt/eigen/include/eigen3 -Iinclude -I/opt/homebrew/opt/libomp/include
+           -I/opt/homebrew/include/eigen3 -Iinclude -I/opt/homebrew/opt/libomp/include 
 LDFLAGS = -L/opt/homebrew/opt/libomp/lib -fopenmp
 
 # Directory configuration

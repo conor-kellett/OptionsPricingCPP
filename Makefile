@@ -4,7 +4,7 @@
 # # LDFLAGS =
 # CXXFLAGS = -Wall -Wextra -std=c++17 -fopenmp -I/opt/homebrew/opt/eigen/include/eigen3 -Iinclude -I/opt/homebrew/opt/libomp/include
 # LDFLAGS = -L/opt/homebrew/opt/libomp/lib -fopenmp
-CXX = g++-14
+CXX = /opt/homebrew/bin/g++-14
 CXXFLAGS = -Wall -Wextra -std=c++17 -fopenmp -I/opt/homebrew/opt/eigen/include/eigen3 -Iinclude -I/opt/homebrew/opt/libomp/include
 LDFLAGS = -L/opt/homebrew/opt/libomp/lib -fopenmp
 
